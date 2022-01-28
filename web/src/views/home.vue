@@ -88,7 +88,7 @@ export default defineComponent({
     TheWelcome
   },
   setup() {
-    const ebooks = ref();
+    const ebooks = ref({});
     // const ebooks1 = reactive({books: []});
 
     const openKeys =  ref();

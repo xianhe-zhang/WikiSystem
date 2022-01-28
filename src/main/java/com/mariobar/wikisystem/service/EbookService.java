@@ -3,15 +3,19 @@ package com.mariobar.wikisystem.service;
  * NOTE: Util类就是为了"提取公因式，把一些常用的共性Service part拿出来，封装成类。"
  */
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.mariobar.wikisystem.domain.Ebook;
+import com.mariobar.wikisystem.domain.EbookExample;
 import com.mariobar.wikisystem.mapper.EbookMapper;
 import com.mariobar.wikisystem.util.CopyUtil;
+import org.mybatis.logging.Logger;
 import org.mybatis.logging.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.util.ObjectUtils;
 
 import javax.annotation.Resource;
 import java.util.List;
-import java.util.logging.Logger;
 
 @Service
 public class EbookService {

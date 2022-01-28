@@ -1,7 +1,7 @@
 package com.mariobar.wikisystem.controller;
 
-import com.jiawa.wiki.domain.Demo;
-import com.jiawa.wiki.service.DemoService;
+import com.mariobar.wikisystem.domain.Demo;
+import com.mariobar.wikisystem.service.DemoService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

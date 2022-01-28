@@ -1,10 +1,15 @@
 package com.mariobar.wikisystem.controller;
 
+import com.mariobar.wikisystem.req.EbookQueryReq;
+import com.mariobar.wikisystem.req.EbookSaveReq;
 import com.mariobar.wikisystem.resp.CommonResp;
+import com.mariobar.wikisystem.resp.EbookQueryResp;
+import com.mariobar.wikisystem.resp.PageResp;
 import com.mariobar.wikisystem.service.EbookService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.validation.Valid;
 
 @RestController
 @RequestMapping("/ebook")

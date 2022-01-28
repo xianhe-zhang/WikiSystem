@@ -1,9 +1,9 @@
 package com.mariobar.wikisystem.controller;
 
-import com.jiawa.wiki.req.CategoryQueryReq;
-import com.jiawa.wiki.req.CategorySaveReq;
-import com.jiawa.wiki.resp.PageResp;
-import com.jiawa.wiki.service.CategoryService;
+import com.mariobar.wikisystem.req.CategoryQueryReq;
+import com.mariobar.wikisystem.req.CategorySaveReq;
+import com.mariobar.wikisystem.resp.PageResp;
+import com.mariobar.wikisystem.service.CategoryService;
 import com.mariobar.wikisystem.resp.CategoryQueryResp;
 import com.mariobar.wikisystem.resp.CommonResp;
 import org.springframework.web.bind.annotation.*;

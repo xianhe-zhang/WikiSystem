@@ -1,11 +1,11 @@
 package com.mariobar.wikisystem.controller;
 
-import com.jiawa.wiki.req.DocQueryReq;
-import com.jiawa.wiki.req.DocSaveReq;
-import com.jiawa.wiki.resp.DocQueryResp;
-import com.jiawa.wiki.resp.CommonResp;
-import com.jiawa.wiki.resp.PageResp;
-import com.jiawa.wiki.service.DocService;
+import com.mariobar.wikisystem.req.DocQueryReq;
+import com.mariobar.wikisystem.req.DocSaveReq;
+import com.mariobar.wikisystem.resp.DocQueryResp;
+import com.mariobar.wikisystem.resp.CommonResp;
+import com.mariobar.wikisystem.resp.PageResp;
+import com.mariobar.wikisystem.service.DocService;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;

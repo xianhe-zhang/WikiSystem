@@ -1,7 +1,7 @@
 package com.mariobar.wikisystem.service;
 
-import com.jiawa.wiki.domain.Demo;
-import com.jiawa.wiki.mapper.DemoMapper;
+import com.mariobar.wikisystem.domain.Demo;
+import com.mariobar.wikisystem.mapper.DemoMapper;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

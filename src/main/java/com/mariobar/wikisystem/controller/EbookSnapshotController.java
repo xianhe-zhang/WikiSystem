@@ -1,8 +1,8 @@
 package com.mariobar.wikisystem.controller;
 
-import com.jiawa.wiki.resp.CommonResp;
-import com.jiawa.wiki.resp.StatisticResp;
-import com.jiawa.wiki.service.EbookSnapshotService;
+import com.mariobar.wikisystem.resp.CommonResp;
+import com.mariobar.wikisystem.resp.StatisticResp;
+import com.mariobar.wikisystem.service.EbookSnapshotService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

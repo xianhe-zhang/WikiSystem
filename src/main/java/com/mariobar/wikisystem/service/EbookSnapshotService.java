@@ -1,7 +1,7 @@
 package com.mariobar.wikisystem.service;
 
-import com.jiawa.wiki.mapper.EbookSnapshotMapperCust;
-import com.jiawa.wiki.resp.StatisticResp;
+import com.mariobar.wikisystem.mapper.EbookSnapshotMapperCust;
+import com.mariobar.wikisystem.resp.StatisticResp;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

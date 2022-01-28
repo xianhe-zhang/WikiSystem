@@ -1,6 +1,6 @@
 package com.mariobar.wikisystem.controller;
 
-import com.jiawa.wiki.exception.BusinessException;
+import com.mariobar.wikisystem.exception.BusinessException;
 import com.mariobar.wikisystem.resp.CommonResp;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

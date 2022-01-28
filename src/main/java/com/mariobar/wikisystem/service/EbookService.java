@@ -3,6 +3,8 @@ package com.mariobar.wikisystem.service;
  * NOTE: Util类就是为了"提取公因式，把一些常用的共性Service part拿出来，封装成类。"
  */
 
+
+
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.mariobar.wikisystem.domain.Ebook;
@@ -14,8 +16,8 @@ import com.mariobar.wikisystem.resp.EbookQueryResp;
 import com.mariobar.wikisystem.resp.PageResp;
 import com.mariobar.wikisystem.util.CopyUtil;
 import com.mariobar.wikisystem.util.SnowFlake;
-import org.mybatis.logging.Logger;
-import org.mybatis.logging.LoggerFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
@@ -24,6 +26,7 @@ import java.util.List;
 
 @Service
 public class EbookService {
+
   private static final Logger LOG = LoggerFactory.getLogger(EbookService.class);
 
   @Resource
@@ -86,4 +89,5 @@ public class EbookService {
   public void delete(Long id) {
     ebookMapper.deleteByPrimaryKey(id);
   }
+
 }

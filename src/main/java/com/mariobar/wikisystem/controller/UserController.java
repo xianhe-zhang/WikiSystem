@@ -1,16 +1,16 @@
 package com.mariobar.wikisystem.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.jiawa.wiki.req.UserLoginReq;
-import com.jiawa.wiki.req.UserQueryReq;
-import com.jiawa.wiki.req.UserResetPasswordReq;
-import com.jiawa.wiki.req.UserSaveReq;
-import com.jiawa.wiki.resp.CommonResp;
-import com.jiawa.wiki.resp.PageResp;
-import com.jiawa.wiki.resp.UserLoginResp;
-import com.jiawa.wiki.resp.UserQueryResp;
-import com.jiawa.wiki.service.UserService;
-import com.jiawa.wiki.util.SnowFlake;
+import com.mariobar.wikisystem.req.UserLoginReq;
+import com.mariobar.wikisystem.req.UserQueryReq;
+import com.mariobar.wikisystem.req.UserResetPasswordReq;
+import com.mariobar.wikisystem.req.UserSaveReq;
+import com.mariobar.wikisystem.resp.CommonResp;
+import com.mariobar.wikisystem.resp.PageResp;
+import com.mariobar.wikisystem.resp.UserLoginResp;
+import com.mariobar.wikisystem.resp.UserQueryResp;
+import com.mariobar.wikisystem.service.UserService;
+import com.mariobar.wikisystem.util.SnowFlake;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.redis.core.RedisTemplate;

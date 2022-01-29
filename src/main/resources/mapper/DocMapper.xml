@@ -5,8 +5,8 @@
     <id column="id" jdbcType="BIGINT" property="id" />
     <result column="ebook_id" jdbcType="BIGINT" property="ebookId" />
     <result column="parent" jdbcType="BIGINT" property="parent" />
-    <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="sort" jdbcType="INTEGER" property="sort" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
     <result column="view_count" jdbcType="INTEGER" property="viewCount" />
     <result column="vote_count" jdbcType="INTEGER" property="voteCount" />
   </resultMap>
@@ -69,7 +69,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    id, ebook_id, parent, `name`, sort, view_count, vote_count
+    id, ebook_id, parent, sort, `name`, view_count, vote_count
   </sql>
   <select id="selectByExample" parameterType="com.mariobar.wikisystem.domain.DocExample" resultMap="BaseResultMap">
     select
@@ -103,10 +103,10 @@
   </delete>
   <insert id="insert" parameterType="com.mariobar.wikisystem.domain.Doc">
     insert into doc (id, ebook_id, parent, 
-      `name`, sort, view_count, 
+      sort, `name`, view_count, 
       vote_count)
     values (#{id,jdbcType=BIGINT}, #{ebookId,jdbcType=BIGINT}, #{parent,jdbcType=BIGINT}, 
-      #{name,jdbcType=VARCHAR}, #{sort,jdbcType=INTEGER}, #{viewCount,jdbcType=INTEGER}, 
+      #{sort,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{viewCount,jdbcType=INTEGER}, 
       #{voteCount,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.mariobar.wikisystem.domain.Doc">
@@ -121,11 +121,11 @@
       <if test="parent != null">
         parent,
       </if>
-      <if test="name != null">
-        `name`,
-      </if>
       <if test="sort != null">
         sort,
+      </if>
+      <if test="name != null">
+        `name`,
       </if>
       <if test="viewCount != null">
         view_count,
@@ -144,11 +144,11 @@
       <if test="parent != null">
         #{parent,jdbcType=BIGINT},
       </if>
-      <if test="name != null">
-        #{name,jdbcType=VARCHAR},
-      </if>
       <if test="sort != null">
         #{sort,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
       </if>
       <if test="viewCount != null">
         #{viewCount,jdbcType=INTEGER},
@@ -176,11 +176,11 @@
       <if test="record.parent != null">
         parent = #{record.parent,jdbcType=BIGINT},
       </if>
-      <if test="record.name != null">
-        `name` = #{record.name,jdbcType=VARCHAR},
-      </if>
       <if test="record.sort != null">
         sort = #{record.sort,jdbcType=INTEGER},
+      </if>
+      <if test="record.name != null">
+        `name` = #{record.name,jdbcType=VARCHAR},
       </if>
       <if test="record.viewCount != null">
         view_count = #{record.viewCount,jdbcType=INTEGER},
@@ -198,8 +198,8 @@
     set id = #{record.id,jdbcType=BIGINT},
       ebook_id = #{record.ebookId,jdbcType=BIGINT},
       parent = #{record.parent,jdbcType=BIGINT},
-      `name` = #{record.name,jdbcType=VARCHAR},
       sort = #{record.sort,jdbcType=INTEGER},
+      `name` = #{record.name,jdbcType=VARCHAR},
       view_count = #{record.viewCount,jdbcType=INTEGER},
       vote_count = #{record.voteCount,jdbcType=INTEGER}
     <if test="_parameter != null">
@@ -215,11 +215,11 @@
       <if test="parent != null">
         parent = #{parent,jdbcType=BIGINT},
       </if>
-      <if test="name != null">
-        `name` = #{name,jdbcType=VARCHAR},
-      </if>
       <if test="sort != null">
         sort = #{sort,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        `name` = #{name,jdbcType=VARCHAR},
       </if>
       <if test="viewCount != null">
         view_count = #{viewCount,jdbcType=INTEGER},
@@ -234,8 +234,8 @@
     update doc
     set ebook_id = #{ebookId,jdbcType=BIGINT},
       parent = #{parent,jdbcType=BIGINT},
-      `name` = #{name,jdbcType=VARCHAR},
       sort = #{sort,jdbcType=INTEGER},
+      `name` = #{name,jdbcType=VARCHAR},
       view_count = #{viewCount,jdbcType=INTEGER},
       vote_count = #{voteCount,jdbcType=INTEGER}
     where id = #{id,jdbcType=BIGINT}

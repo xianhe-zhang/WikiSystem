@@ -61,8 +61,8 @@ create table `doc` (
                        `id` bigint not null comment 'id',
                        `ebook_id` bigint not null default 0 comment '电子书id',
                        `parent` bigint not null default 0 comment '父id',
-                       `name` varchar(50) not null comment '名称',
                        `sort` int comment '顺序',
+                       `name` varchar(50) not null comment '名称',
                        `view_count` int default 0 comment '阅读数',
                        `vote_count` int default 0 comment '点赞数',
                        primary key (`id`)

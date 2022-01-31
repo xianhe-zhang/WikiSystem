@@ -24,3 +24,90 @@
 2022-01-29 13:47:19.127 INFO  c.mariobar.wikisystem.config.WikiSystemApplication:27   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
 2022-01-29 14:13:43.876 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
 2022-01-29 14:13:43.884 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-29 15:14:38.140 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2022-01-29 15:14:38.146 INFO  c.mariobar.wikisystem.config.WikiSystemApplication:55   [32m                  [0;39m Starting WikiSystemApplication using Java 16.0.2 on XianhedeMacBook-Air.local with PID 22559 (/Users/marioxzhang/projects/wiki/WikiSystem/target/classes started by marioxzhang in /Users/marioxzhang/projects/wiki/WikiSystem)
+2022-01-29 15:14:38.147 INFO  c.mariobar.wikisystem.config.WikiSystemApplication:660  [32m                  [0;39m No active profile set, falling back to default profiles: default
+2022-01-29 15:14:38.333 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-29 15:14:38.335 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-29 15:14:39.872 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :250  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-01-29 15:14:39.875 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :128  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-01-29 15:14:39.916 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :188  [32m                  [0;39m Finished Spring Data repository scanning in 26 ms. Found 0 Redis repository interfaces.
+2022-01-29 15:14:41.511 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m                  [0;39m Tomcat initialized with port(s): 8880 (http)
+2022-01-29 15:14:41.524 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8880"]
+2022-01-29 15:14:41.524 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2022-01-29 15:14:41.524 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/9.0.39]
+2022-01-29 15:14:41.611 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2022-01-29 15:14:41.611 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m                  [0;39m Root WebApplicationContext: initialization completed in 3273 ms
+2022-01-29 15:14:44.515 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m                  [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-29 15:14:45.271 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :181  [32m                  [0;39m Initializing ExecutorService 'taskScheduler'
+2022-01-29 15:14:45.365 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m                  [0;39m LiveReload server is running on port 35729
+2022-01-29 15:14:45.427 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8880"]
+2022-01-29 15:14:45.442 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m                  [0;39m Tomcat started on port(s): 8880 (http) with context path ''
+2022-01-29 15:14:45.461 INFO  c.mariobar.wikisystem.config.WikiSystemApplication:61   [32m                  [0;39m Started WikiSystemApplication in 8.269 seconds (JVM running for 9.281)
+2022-01-29 15:14:45.467 INFO  c.mariobar.wikisystem.config.WikiSystemApplication:26   [32m                  [0;39m 启动成功！！
+2022-01-29 15:14:45.472 INFO  c.mariobar.wikisystem.config.WikiSystemApplication:27   [32m                  [0;39m 地址: 	http://127.0.0.1:8880
+2022-01-29 15:15:03.163 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-29 15:15:03.176 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2022-01-29 15:15:03.202 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 15 ms
+2022-01-29 15:15:03.369 INFO  com.mariobar.wikisystem.websocket.WebSocketServer :32   [32m                  [0;39m 有新连接：token：0QpvCeUaQh，session id：0，当前连接数：1
+2022-01-29 15:15:03.420 INFO  com.mariobar.wikisystem.aspect.LogAspect          :53   [32m142769508761866240[0;39m ------------- 开始 -------------
+2022-01-29 15:15:03.420 INFO  com.mariobar.wikisystem.aspect.LogAspect          :53   [32m142769508761866241[0;39m ------------- 开始 -------------
+2022-01-29 15:15:03.432 INFO  com.mariobar.wikisystem.aspect.LogAspect          :54   [32m142769508761866240[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2022-01-29 15:15:03.432 INFO  com.mariobar.wikisystem.aspect.LogAspect          :54   [32m142769508761866241[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2022-01-29 15:15:03.433 INFO  com.mariobar.wikisystem.aspect.LogAspect          :55   [32m142769508761866241[0;39m 类名方法: com.mariobar.wikisystem.controller.EbookSnapshotController.get30Statistic
+2022-01-29 15:15:03.433 INFO  com.mariobar.wikisystem.aspect.LogAspect          :55   [32m142769508761866240[0;39m 类名方法: com.mariobar.wikisystem.controller.EbookSnapshotController.getStatistic
+2022-01-29 15:15:03.433 INFO  com.mariobar.wikisystem.aspect.LogAspect          :56   [32m142769508761866241[0;39m 远程地址: 127.0.0.1
+2022-01-29 15:15:03.433 INFO  com.mariobar.wikisystem.aspect.LogAspect          :56   [32m142769508761866240[0;39m 远程地址: 127.0.0.1
+2022-01-29 15:15:03.538 INFO  com.mariobar.wikisystem.aspect.LogAspect          :78   [32m142769508761866241[0;39m 请求参数: []
+2022-01-29 15:15:03.538 INFO  com.mariobar.wikisystem.aspect.LogAspect          :78   [32m142769508761866240[0;39m 请求参数: []
+2022-01-29 15:15:03.642 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m142769508761866240[0;39m HikariPool-1 - Starting...
+2022-01-29 15:15:05.798 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m142769508761866240[0;39m HikariPool-1 - Start completed.
+2022-01-29 15:15:06.081 INFO  com.mariobar.wikisystem.aspect.LogAspect          :90   [32m142769508761866240[0;39m 返回结果: {"content":[],"success":true}
+2022-01-29 15:15:06.085 INFO  com.mariobar.wikisystem.aspect.LogAspect          :91   [32m142769508761866240[0;39m ------------- 结束 耗时：2667 ms -------------
+2022-01-29 15:15:06.210 INFO  com.mariobar.wikisystem.aspect.LogAspect          :90   [32m142769508761866241[0;39m 返回结果: {"content":[],"success":true}
+2022-01-29 15:15:06.211 INFO  com.mariobar.wikisystem.aspect.LogAspect          :91   [32m142769508761866241[0;39m ------------- 结束 耗时：2793 ms -------------
+2022-01-29 15:15:12.346 INFO  com.mariobar.wikisystem.aspect.LogAspect          :53   [32m142769546208612352[0;39m ------------- 开始 -------------
+2022-01-29 15:15:12.347 INFO  com.mariobar.wikisystem.aspect.LogAspect          :54   [32m142769546208612352[0;39m 请求地址: http://127.0.0.1:8880/user/login POST
+2022-01-29 15:15:12.347 INFO  com.mariobar.wikisystem.aspect.LogAspect          :55   [32m142769546208612352[0;39m 类名方法: com.mariobar.wikisystem.controller.UserController.login
+2022-01-29 15:15:12.347 INFO  com.mariobar.wikisystem.aspect.LogAspect          :56   [32m142769546208612352[0;39m 远程地址: 127.0.0.1
+2022-01-29 15:15:12.357 INFO  com.mariobar.wikisystem.aspect.LogAspect          :78   [32m142769546208612352[0;39m 请求参数: [{"loginName":"test"}]
+2022-01-29 15:15:12.812 INFO  com.mariobar.wikisystem.controller.UserController :77   [32m142769546208612352[0;39m 生成单点登录token：142769548163158016，并放入redis中
+2022-01-29 15:15:14.259 INFO  com.mariobar.wikisystem.aspect.LogAspect          :90   [32m142769546208612352[0;39m 返回结果: {"content":{"id":1,"loginName":"test","name":"测试","token":"142769548163158016"},"success":true}
+2022-01-29 15:15:14.268 INFO  com.mariobar.wikisystem.aspect.LogAspect          :91   [32m142769546208612352[0;39m ------------- 结束 耗时：1922 ms -------------
+2022-01-29 15:33:23.976 INFO  com.mariobar.wikisystem.websocket.WebSocketServer :32   [32m                  [0;39m 有新连接：token：WSC8kY3iXp，session id：1，当前连接数：2
+2022-01-29 15:33:24.011 INFO  com.mariobar.wikisystem.aspect.LogAspect          :53   [32m142774124979294208[0;39m ------------- 开始 -------------
+2022-01-29 15:33:24.011 INFO  com.mariobar.wikisystem.aspect.LogAspect          :53   [32m142774124975099904[0;39m ------------- 开始 -------------
+2022-01-29 15:33:24.020 INFO  com.mariobar.wikisystem.aspect.LogAspect          :54   [32m142774124975099904[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2022-01-29 15:33:24.020 INFO  com.mariobar.wikisystem.aspect.LogAspect          :54   [32m142774124979294208[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2022-01-29 15:33:24.020 INFO  com.mariobar.wikisystem.aspect.LogAspect          :55   [32m142774124975099904[0;39m 类名方法: com.mariobar.wikisystem.controller.EbookSnapshotController.getStatistic
+2022-01-29 15:33:24.020 INFO  com.mariobar.wikisystem.aspect.LogAspect          :55   [32m142774124979294208[0;39m 类名方法: com.mariobar.wikisystem.controller.EbookSnapshotController.get30Statistic
+2022-01-29 15:33:24.020 INFO  com.mariobar.wikisystem.aspect.LogAspect          :56   [32m142774124979294208[0;39m 远程地址: 127.0.0.1
+2022-01-29 15:33:24.020 INFO  com.mariobar.wikisystem.aspect.LogAspect          :56   [32m142774124975099904[0;39m 远程地址: 127.0.0.1
+2022-01-29 15:33:24.028 INFO  com.mariobar.wikisystem.aspect.LogAspect          :78   [32m142774124979294208[0;39m 请求参数: []
+2022-01-29 15:33:24.033 INFO  com.mariobar.wikisystem.aspect.LogAspect          :78   [32m142774124975099904[0;39m 请求参数: []
+2022-01-29 15:33:24.389 INFO  com.mariobar.wikisystem.aspect.LogAspect          :90   [32m142774124975099904[0;39m 返回结果: {"content":[],"success":true}
+2022-01-29 15:33:24.389 INFO  com.mariobar.wikisystem.aspect.LogAspect          :90   [32m142774124979294208[0;39m 返回结果: {"content":[],"success":true}
+2022-01-29 15:33:24.391 INFO  com.mariobar.wikisystem.aspect.LogAspect          :91   [32m142774124979294208[0;39m ------------- 结束 耗时：382 ms -------------
+2022-01-29 15:33:24.391 INFO  com.mariobar.wikisystem.aspect.LogAspect          :91   [32m142774124975099904[0;39m ------------- 结束 耗时：382 ms -------------
+2022-01-29 15:35:21.549 INFO  com.mariobar.wikisystem.websocket.WebSocketServer :32   [32m142769508761866241[0;39m 有新连接：token：IcHGxnEEO7，session id：2，当前连接数：3
+2022-01-29 15:35:21.643 INFO  com.mariobar.wikisystem.aspect.LogAspect          :53   [32m142774618367856640[0;39m ------------- 开始 -------------
+2022-01-29 15:35:21.644 INFO  com.mariobar.wikisystem.aspect.LogAspect          :54   [32m142774618367856640[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-statistic GET
+2022-01-29 15:35:21.645 INFO  com.mariobar.wikisystem.aspect.LogAspect          :55   [32m142774618367856640[0;39m 类名方法: com.mariobar.wikisystem.controller.EbookSnapshotController.getStatistic
+2022-01-29 15:35:21.645 INFO  com.mariobar.wikisystem.aspect.LogAspect          :56   [32m142774618367856640[0;39m 远程地址: 127.0.0.1
+2022-01-29 15:35:21.646 INFO  com.mariobar.wikisystem.aspect.LogAspect          :53   [32m142774618372050944[0;39m ------------- 开始 -------------
+2022-01-29 15:35:21.647 INFO  com.mariobar.wikisystem.aspect.LogAspect          :78   [32m142774618367856640[0;39m 请求参数: []
+2022-01-29 15:35:21.647 INFO  com.mariobar.wikisystem.aspect.LogAspect          :54   [32m142774618372050944[0;39m 请求地址: http://127.0.0.1:8880/ebook-snapshot/get-30-statistic GET
+2022-01-29 15:35:21.649 INFO  com.mariobar.wikisystem.aspect.LogAspect          :55   [32m142774618372050944[0;39m 类名方法: com.mariobar.wikisystem.controller.EbookSnapshotController.get30Statistic
+2022-01-29 15:35:21.649 INFO  com.mariobar.wikisystem.aspect.LogAspect          :56   [32m142774618372050944[0;39m 远程地址: 127.0.0.1
+2022-01-29 15:35:21.650 INFO  com.mariobar.wikisystem.aspect.LogAspect          :78   [32m142774618372050944[0;39m 请求参数: []
+2022-01-29 15:35:21.982 INFO  com.mariobar.wikisystem.aspect.LogAspect          :90   [32m142774618372050944[0;39m 返回结果: {"content":[],"success":true}
+2022-01-29 15:35:21.982 INFO  com.mariobar.wikisystem.aspect.LogAspect          :90   [32m142774618367856640[0;39m 返回结果: {"content":[],"success":true}
+2022-01-29 15:35:21.988 INFO  com.mariobar.wikisystem.aspect.LogAspect          :91   [32m142774618367856640[0;39m ------------- 结束 耗时：345 ms -------------
+2022-01-29 15:35:21.988 INFO  com.mariobar.wikisystem.aspect.LogAspect          :91   [32m142774618372050944[0;39m ------------- 结束 耗时：344 ms -------------
+2022-01-29 15:35:27.430 INFO  com.mariobar.wikisystem.websocket.WebSocketServer :41   [32m                  [0;39m 连接关闭，token：WSC8kY3iXp，session id：1！当前连接数：2
+2022-01-29 15:41:50.613 INFO  com.mariobar.wikisystem.websocket.WebSocketServer :41   [32m142774124975099904[0;39m 连接关闭，token：0QpvCeUaQh，session id：0！当前连接数：1
+2022-01-29 15:41:51.376 INFO  com.mariobar.wikisystem.websocket.WebSocketServer :41   [32m142774124979294208[0;39m 连接关闭，token：IcHGxnEEO7，session id：2！当前连接数：0
+2022-01-29 15:48:40.602 INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler :218  [32m                  [0;39m Shutting down ExecutorService 'taskScheduler'
+2022-01-29 15:48:40.606 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m                  [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2022-01-29 15:48:40.610 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2022-01-29 15:48:40.618 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

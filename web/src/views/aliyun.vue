@@ -14,7 +14,7 @@
         <br>
         <div style="color: rgb(194, 79, 74)"><b>还没注册过阿里云的可以先QQ联系，灰常便宜！！！</b></div>
         <div>
-          <img src="http://www.jiawablog.com/image/aliyun1.jpg">
+          <img src="http://www.mariobablog.com/image/aliyun1.jpg">
         </div>
       </div>
     </a-layout-content>

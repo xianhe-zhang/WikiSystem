@@ -7,7 +7,7 @@
       <div>3. 文档树可无限级扩展，支持文字、图片、视频。<b>用到了无限级树设计知识</b></div>
       <div>4. 登录后可看到更多菜单。<b>用到了单点登录、前后端登录拦截、安全性设计</b></div>
       <div>课程技术栈思维导图，
-        <a href="http://www.jiawablog.com/detail?id=152412053087326208" target="_blank">
+        <a href="http://www.mariobablog.com/detail?id=152412053087326208" target="_blank">
           点击查看：SpringBoot+Vue3
         </a>
       </div>
@@ -127,10 +127,14 @@
       statistic.value = {};
       const getStatistic = () => {
         axios.get('/ebook-snapshot/get-statistic').then((response) => {
+
           const data = response.data;
           if (data.success) {
             const statisticResp = data.content;
+            console.log("kanwo0");
+            console.log(statisticResp);
             statistic.value.viewCount = statisticResp[1].viewCount;
+            console.log("kanwo1");
             statistic.value.voteCount = statisticResp[1].voteCount;
             statistic.value.todayViewCount = statisticResp[1].viewIncrease;
             statistic.value.todayVoteCount = statisticResp[1].voteIncrease;

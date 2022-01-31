@@ -1,4 +1,4 @@
-// package com.mariobar.wikisystem.filter;
+package com.mariobar.wikisystem.filter;// package com.mariobar.wikisystem.filter;
 //
 // import org.slf4j.Logger;
 // import org.slf4j.LoggerFactory;

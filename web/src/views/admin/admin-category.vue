@@ -161,7 +161,7 @@
       };
 
       // -------- 表单 ---------
-      const category = ref();
+      const category = ref({});
       const modalVisible = ref(false);
       const modalLoading = ref(false);
       const handleModalOk = () => {

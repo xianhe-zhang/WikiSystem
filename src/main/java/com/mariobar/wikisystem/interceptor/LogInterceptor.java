@@ -1,4 +1,4 @@
-// package com.mariobar.wikisystem.interceptor;
+package com.mariobar.wikisystem.interceptor;// package com.mariobar.wikisystem.interceptor;
 //
 // import org.slf4j.Logger;
 // import org.slf4j.LoggerFactory;

@@ -32,5 +32,4 @@ public class EbookSnapshotController {
         commonResp.setContent(statisticResp);
         return commonResp;
     }
-
 }

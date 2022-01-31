@@ -60,11 +60,11 @@ public class StatisticResp {
     @Override
     public String toString() {
         return "StatisticResp{" +
-                "date=" + date +
-                ", viewCount=" + viewCount +
-                ", voteCount=" + voteCount +
-                ", viewIncrease=" + viewIncrease +
-                ", voteIncrease=" + voteIncrease +
-                '}';
+            "date=" + date +
+            ", viewCount=" + viewCount +
+            ", voteCount=" + voteCount +
+            ", viewIncrease=" + viewIncrease +
+            ", voteIncrease=" + voteIncrease +
+            '}';
     }
 }
